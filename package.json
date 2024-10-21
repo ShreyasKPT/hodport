@@ -2,8 +2,7 @@
   "name": "hodportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tusharsaliann.github.io/hod",
-
+  "homepage": "https://ShreyasKPT.github.io/hodport",
   "type": "module",
   "scripts": {
     "dev": "vite",

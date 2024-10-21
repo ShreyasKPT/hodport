@@ -1,26 +1,28 @@
-
-/* General App Styling */
+/* General Styling */
 .App {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-/* Navbar Styling */
+/* Navigation Bar */
 .navbar {
-  background-color: #333;
-  padding: 10px;
-  position: fixed;
-  width: 100%;
+  background-color: #222;
+  padding: 10px 0;
+  position: sticky;
   top: 0;
-  left: 0;
-  z-index: 1000;
+  width: 100%;
 }
 
 .navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar ul li {
@@ -28,88 +30,88 @@
 }
 
 .navbar ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  padding: 8px 16px;
+  font-weight: bold;
 }
 
 .navbar ul li a:hover {
-  background-color: #555;
-  border-radius: 5px;
+  color: #ff6347;
 }
 
-/* Home Section Styling */
-.container {
-  margin-top: 60px; /* To adjust for fixed navbar */
-  padding: 20px;
+/* Home Section */
+.home-section {
+  background-color: #f4f4f4;
+  padding: 80px 20px;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.profile-container {
-  display: flex;
-  align-items: center; /* Align image and text in the center vertically */
-}
-
-.hod {
-  border-radius: 50%;
+.home-section .profile-img {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px; /* Space between the image and the text */
+  margin-bottom: 20px;
 }
 
-.info {
+.home-section h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-section p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* About Section */
+.about-section {
+  background-color: #fff;
+  padding: 80px 20px;
   text-align: left;
 }
 
-.info h1 {
-  margin: 0;
-  font-size: 24px;
-  color:#f4f4f4;
-
-}
-
-.info p {
-  margin: 5px 0;
-}
-
-/* About Section Styling */
-.about-section {
-  padding: 50px;
-  background-color: #333;
-  color: white;
+.about-section h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-/* Contact Section Styling */
+.about-section p {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Contact Section */
 .contact-section {
-  padding: 50px;
   background-color: #f4f4f4;
-  text-align: center;
+  padding: 80px 20px;
 }
+
 .contact-section h2 {
-  color:#333;
-
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 20px;
 }
+
 .contact-section p {
-  color: #333;
+  font-size: 18px;
+  color: #555;
 }
 
-/* Footer Styling */
+/* Footer */
 .footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
+  background-color: #222;
+  color: #fff;
   padding: 10px 0;
-}
-
-.footer p {
-  margin: 5px 0;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
+  text-align: center;
 }
