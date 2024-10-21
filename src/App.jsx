@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import './index.css'
 import profileImage from './assets/hod.png'; 
 
 function App() {
